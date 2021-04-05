@@ -17,7 +17,7 @@ int main (void)
 	/*************/
 	// assignment one flashing every 500 ms
 
-	DDRB= 0x01 ;
+	/*DDRB= 0x01 ;
 	while (1)
 	{
 		PORTB = 0X01 ;
@@ -25,7 +25,7 @@ int main (void)
 		PORTB = 0X00 ;
 		_delay_ms(500);
 	}
-
+*/
 
 
 	/************/
@@ -35,7 +35,7 @@ int main (void)
 	// assignment two shifting left every 250 ms
 
 
-	/*DDRC = 0xff ;
+	DDRC = 0xff ;
 	while (1)
 	{
 		PORTC = 0b00000001 ;
@@ -64,7 +64,7 @@ int main (void)
 		_delay_ms(1000);
 
 
-	}*/
+	}
 
 }
 
